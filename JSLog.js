@@ -38,7 +38,9 @@ module.exports = {
     categories: config.categories,
     verbosities: config.verbosities,
     format: config.format,
-    /** This object has methods for automatically format log messages, primarily for non-console logs */
+    /** 
+     * This object has methods for automatically format log messages, primarily for non-console logs 
+     */
     logGenerator: {
         display: (category, message, timestamp = new Date(), bWithColor = false) => {
             const output = generateLogMessage(category, config.verbosities.display, message, timestamp, config.settings.format);
@@ -58,7 +60,9 @@ module.exports = {
         },
         log: generateLogMessage
     },
-    /** This object has methods which will format a message, and display it in the console log. */
+    /** 
+     * This object has methods which will format a message, and display it in the console log. 
+     */
     logger: {
         /**
          * Logs a message in a generic way
