@@ -1,12 +1,12 @@
 {
   "name": "JSLog",
   "version": "1.0.0",
-  "description": "",
+  "description": "Provides utilities for logging information in a thorough and parsable manner.",
   "main": "JSLog.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "alecwgreene@gmail.com",
   "license": "ISC"
 }
